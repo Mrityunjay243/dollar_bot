@@ -24,5 +24,5 @@ fi
 
 if [ -n "$api_token" ]
 then
-  python3 code/code.py
+  python code/code.py
 fi
