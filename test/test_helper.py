@@ -325,6 +325,45 @@ def test_calculate_total_spendings_for_category():
 def test_calculateRemainingOverallBudget():
     pass
 
+def test_successful_conversion(self, mock_requests_get):
+    # Arrange
+    amount = 50
+    from_currency = 'EUR'
+    mock_response = mock.Mock()
+    mock_response.json.return_value = {'rates': {'USD': 1.2, 'EUR': 1.0}}
+    mock_requests_get.return_value = mock_response
+
+    # Act
+    result = helper.convertCurrency(amount, from_currency)
+
+    # Assert
+    mock_requests_get.assert_called_once_with('https://openexchangerates.org/api/latest.json?app_id=API KEY')
+    self.assertEqual(result, '60.00')
+
+def test_invalid_currency(self, mock_requests_get):
+    # Arrange
+    amount = 50
+    from_currency = 'XYZ'
+    mock_response = mock.Mock()
+    mock_response.json.return_value = {'rates': {'USD': 1.2}}
+    mock_requests_get.return_value = mock_response
+
+    # Act and Assert
+    with self.assertRaises(Exception) as context:
+        helper.convertCurrency(amount, from_currency)
+    self.assertEqual(str(context.exception), "Invalid currency code. Make sure to use valid three-letter currency codes.")
+
+def test_conversion_exception(self, mock_requests_get):
+    # Arrange
+    amount = 50
+    from_currency = 'EUR'
+
+    # Act and Assert
+    with self.assertRaises(Exception) as context:
+        helper.convertCurrency(amount, from_currency)
+    self.assertEqual(str(context.exception), "Some error")
+
+
 
 @patch("telebot.telebot")
 def test_display_remaining_overall_budget(mock_telebot, mocker):
