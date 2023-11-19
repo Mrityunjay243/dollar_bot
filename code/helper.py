@@ -304,7 +304,7 @@ def getUpdateOptions():
     return update_options
 
 def convertCurrency(amount, from_currency):
-    API_KEY = '6844d1a1d2e74a319dd3ffc659074a6e'
+    API_KEY = ''
     api_url = f'https://openexchangerates.org/api/latest.json?app_id={API_KEY}'
     response = requests.get(api_url)
     data = response.json()
