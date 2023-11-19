@@ -104,7 +104,7 @@ def post_category_selection(message, bot):
         option[chat_id] = selected_category
         message = bot.send_message(
             chat_id,
-            "How much did you spend on {}? \n(Enter numeric values only)".format(
+            "How much did you spend on {}? \n You can also enter currency code after the amount, and it'll be converted to USD".format(
                 str(option[chat_id])
             ),
         )
@@ -140,10 +140,12 @@ def post_amount_input(message, bot, selected_category):
 
         chat_id = message.chat.id
         print(chat_id)
-        amount_entered = message.text
-        print("0000000000000000000000000000000000000000000000000")
-        print(amount_entered)
-        print(selected_category)
+        input_params = message.text.split()
+        amount_entered = input_params[0]
+        from_currency = input_params[1].upper() if len(input_params) > 1 else 'USD'
+        
+        amount_entered = helper.convertCurrency(amount_entered, from_currency)
+        
         amount_value = helper.validate_entered_amount(amount_entered)  # validate
         if amount_value == 0:  # cannot be $0 spending
             raise Exception("Spent amount has to be a non-zero number.")

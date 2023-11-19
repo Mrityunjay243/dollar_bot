@@ -62,11 +62,11 @@ def update_overall_budget(chat_id, bot):
     """
     if helper.isOverallBudgetAvailable(chat_id):
         currentBudget = helper.getOverallBudget(chat_id)
-        msg_string = "Current Budget is ${}\n\nHow much is your new monthly budget? \n(Enter numeric values only)"
+        msg_string = "Current Budget is ${}\n\nHow much is your new monthly budget? \nYou can also enter currency code after the amount, and it'll be converted to USD"
         message = bot.send_message(chat_id, msg_string.format(currentBudget))
     else:
         message = bot.send_message(
-            chat_id, "How much is your monthly budget? \n(Enter numeric values only)"
+            chat_id, "How much is your monthly budget? \nYou can also enter currency code after the amount, and it'll be converted to USD"
         )
     bot.register_next_step_handler(message, post_overall_amount_input, bot)
 
@@ -83,7 +83,12 @@ def post_overall_amount_input(message, bot):
     """
     try:
         chat_id = message.chat.id
-        amount_value = helper.validate_entered_amount(message.text)
+        input_params = message.text.split()
+        amount_entered = input_params[0]
+        from_currency = input_params[1].upper() if len(input_params) > 1 else 'USD'
+        
+        amount_entered = helper.convertCurrency(amount_entered, from_currency)
+        amount_value = helper.validate_entered_amount(amount_entered)
         if amount_value == 0:
             raise Exception("Invalid amount.")
         user_list = helper.read_json()
@@ -140,7 +145,7 @@ def post_category_selection(message, bot):
             currentBudget = helper.getCategoryBudgetByCategory(
                 chat_id, selected_category
             )
-            msg_string = "Current monthly budget for {} is {}\n\nEnter monthly budget for {}\n(Enter numeric values only)"
+            msg_string = "Current monthly budget for {} is {}\n\nEnter monthly budget for {}\nYou can also enter currency code after the amount, and it'll be converted to USD"
             message = bot.send_message(
                 chat_id,
                 msg_string.format(selected_category, currentBudget, selected_category),
@@ -148,7 +153,7 @@ def post_category_selection(message, bot):
         else:
             message = bot.send_message(
                 chat_id,
-                "Enter monthly budget for " + selected_category + "\n(Enter numeric values only)",
+                "Enter monthly budget for " + selected_category + "\nYou can also enter currency code after the amount, and it'll be converted to USD",
             )
         bot.register_next_step_handler(
             message, post_category_amount_input, bot, selected_category
@@ -165,7 +170,12 @@ def post_category_amount_input(message, bot, category):
     """
     try:
         chat_id = message.chat.id
-        amount_value = helper.validate_entered_amount(message.text)
+        input_params = message.text.split()
+        amount_entered = input_params[0]
+        from_currency = input_params[1].upper() if len(input_params) > 1 else 'USD'
+        
+        amount_entered = helper.convertCurrency(amount_entered, from_currency)
+        amount_value = helper.validate_entered_amount(amount_entered)
         if amount_value == 0:
             raise Exception("Invalid amount.")
         user_list = helper.read_json()

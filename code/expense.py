@@ -47,7 +47,13 @@ def expense_category_selected(message, bot):
 def record_expense(message, category, bot):
     try:
         chat_id = message.chat.id
-        amount_entered = message.text
+        
+        input_params = message.text.split()
+        amount_entered = input_params[0]
+        from_currency = input_params[1].upper() if len(input_params) > 1 else 'USD'
+
+        amount_entered = helper.convertCurrency(amount_entered, from_currency)
+        
         amount_value = helper.validate_entered_amount(amount_entered)  # validate
 
         if amount_value == 0:  # cannot be $0 spending

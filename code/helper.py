@@ -1,6 +1,7 @@
 import re
 import json
 import os
+import requests
 from datetime import datetime
 
 from notify import notify
@@ -301,3 +302,17 @@ def getBudgetTypes():
 
 def getUpdateOptions():
     return update_options
+
+def convertCurrency(amount, from_currency):
+    API_KEY = '6844d1a1d2e74a319dd3ffc659074a6e'
+    api_url = f'https://openexchangerates.org/api/latest.json?app_id={API_KEY}'
+    response = requests.get(api_url)
+    data = response.json()
+    rates = data.get('rates', {})
+
+    if from_currency not in rates or 'USD' not in rates:
+        raise Exception("Invalid currency code. Make sure to use valid three-letter currency codes.")
+
+    conversion_result = float(amount) * rates['USD'] / rates[from_currency]
+    conversion_result = "{:.2f}".format(conversion_result)
+    return conversion_result
