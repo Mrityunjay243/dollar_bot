@@ -30,7 +30,6 @@ def calculate_expenses_by_category(user_history, from_date, to_date):
         date = datetime.strptime(date.split()[0], "%d-%b-%Y")
         amount = float(amount)
         if from_date <= date and date <= to_date:
-            print(from_date, date, to_date)
             if category not in expenses_by_category:
                 expenses_by_category[category] = amount
             else:

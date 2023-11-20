@@ -16,6 +16,7 @@ import category_view
 import add
 import budget
 import search
+import export
 from datetime import datetime
 from jproperties import Properties
 from expense import process_expense_command
@@ -234,6 +235,10 @@ def command_budget(message):
 @bot.message_handler(commands=['search'])
 def handle_search(message):
     search.run(message, bot)
+
+@bot.message_handler(commands=['export'])
+def handle_search(message):
+    export.run(message, bot)
 
 # not used
 
