@@ -1,3 +1,4 @@
+from datetime import datetime
 import helper
 import logging
 from matplotlib import pyplot as plt
@@ -22,26 +23,35 @@ def is_overall_budget_exceeded(user_history, overall_budget):
             return True
     return False
 
-def calculate_expenses_by_category(user_history):
+def calculate_expenses_by_category(user_history, from_date, to_date):
     expenses_by_category = {}
     for record in user_history:
-        _, category, amount = record.split(",")
+        date, category, amount = record.split(",")
+        date = datetime.strptime(date.split()[0], "%d-%b-%Y")
         amount = float(amount)
-        if category not in expenses_by_category:
-            expenses_by_category[category] = amount
-        else:
-            expenses_by_category[category] += amount
+        if from_date <= date and date <= to_date:
+            print(from_date, date, to_date)
+            if category not in expenses_by_category:
+                expenses_by_category[category] = amount
+            else:
+                expenses_by_category[category] += amount
     return expenses_by_category
 
-def display_pie_chart(user_history, user_budget):
-    expenses_by_category = calculate_expenses_by_category(user_history)
+def display_pie_chart(user_history, user_budget, from_date, to_date):
+    expenses_by_category = calculate_expenses_by_category(user_history, from_date, to_date)
     categories = expenses_by_category.keys()
     expenses = expenses_by_category.values()
     dates = []
     
     # Extract the dates for each category
     for category in categories:
-        dates_str = [record.split(',')[0] for record in user_history if category in record]
+        dates_str = [
+            record.split(',')[0] 
+            for record in user_history 
+            if category in record 
+            and from_date <= datetime.strptime(record.split(',')[0].split()[0].split()[0], "%d-%b-%Y") 
+            and datetime.strptime(record.split(',')[0].split()[0].split()[0], "%d-%b-%Y") <= to_date
+        ]
         dates.append(dates_str)
 
     fig, ax1 = plt.subplots(2, 1, figsize=(8, 8))
@@ -83,11 +93,17 @@ def run(message, bot):
         chat_id = message.chat.id
         user_history = helper.getUserHistory(chat_id)
         user_budget = helper.getOverallBudget(chat_id)
+        input_dates = message.text.split()
+        from_date = input_dates[1] if len(input_dates) > 1 else '01-Jan-1970'
+        to_date = input_dates[2] if len(input_dates) > 2 else '31-Dec-2070'
 
-        message = "Alright. I just created a pdf of your expense history!"
+        from_date = datetime.strptime(from_date, "%d-%b-%Y")
+        to_date = datetime.strptime(to_date, "%d-%b-%Y")
+
+        message = "Alright. Compiling your expense history in a pdf file!"
         bot.send_message(chat_id, message)
         
-        fig = display_pie_chart(user_history, user_budget)
+        fig = display_pie_chart(user_history, user_budget, from_date, to_date)
 
         # Save the figure as a PDF
         fig.savefig("expense_history.pdf")
@@ -95,6 +111,8 @@ def run(message, bot):
         
         # Send the PDF document
         bot.send_document(chat_id, open("expense_history.pdf", "rb"))
+        message = "Done!"
+        bot.send_message(chat_id, message)
     except Exception as e:
         logging.exception(str(e))
         bot.reply_to(message, "Oops! " + str(e))
