@@ -17,6 +17,7 @@ import add
 import budget
 import search
 import export
+import support
 from datetime import datetime
 from jproperties import Properties
 from expense import process_expense_command
@@ -29,7 +30,7 @@ with open("user.properties", "rb") as read_prop:
 option = {}
 
 # api_token = str(configs.get("api_token").data)
-api_token = '6758639243:AAETjsjloCwYGaGEPcjGoPDjJyTFJWmpnLU'
+api_token = '6785126347:AAH7dnk-3WTgIKuQDQoCgcCGwktNu0lnA9s'
 bot = telebot.TeleBot(api_token)
 
 telebot.logger.setLevel(logging.INFO)
@@ -240,6 +241,11 @@ def handle_search(message):
 @bot.message_handler(commands=['export'])
 def handle_search(message):
     export.run(message, bot)
+
+
+@bot.message_handler(commands=["support"])
+def command_support(message):
+    support.run(message, bot)
 
 
 def addUserHistory(chat_id, user_record):
