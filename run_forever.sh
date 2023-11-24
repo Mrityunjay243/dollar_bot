@@ -1,2 +1,2 @@
 pkill -f code.py
-python3 code/code.py > tmp &
+python code/code.py > tmp &
