@@ -18,6 +18,7 @@ import budget
 import search
 import export
 import support
+import csv_export
 from datetime import datetime
 from jproperties import Properties
 from expense import process_expense_command
@@ -29,8 +30,7 @@ with open("user.properties", "rb") as read_prop:
 
 option = {}
 
-# api_token = str(configs.get("api_token").data)
-api_token = '6785126347:AAH7dnk-3WTgIKuQDQoCgcCGwktNu0lnA9s'
+api_token = str(configs.get("api_token").data)
 bot = telebot.TeleBot(api_token)
 
 telebot.logger.setLevel(logging.INFO)
@@ -222,6 +222,19 @@ def command_delete(message):
     Commands used to run this: commands=['display']
     """
     delete.run(message, bot)
+
+# exporting to csv
+@bot.message_handler(commands=["export"])
+def handle_export(message):
+    user_id = str(message.from_user.id)
+    user_expenses = []  # Replace this with actual user expense data
+
+    if user_expenses:
+        exported_file = export_to_csv(user_id, user_expenses)
+        bot.send_document(message.chat.id, open(exported_file, "rb"))
+    else:
+        bot.send_message(message.chat.id, "No expenses to export.")
+
 
 
 @bot.message_handler(commands=['expense'])
