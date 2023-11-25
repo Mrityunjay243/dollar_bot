@@ -39,7 +39,7 @@ def expense_category_selected(message, bot):
             raise Exception(f'Sorry, I don\'t recognize this category "{selected_category}"!')
 
         markup = telebot.types.ReplyKeyboardRemove()
-        msg = bot.send_message(chat_id, f"How much did you spend on {selected_category}?", reply_markup=markup)
+        msg = bot.send_message(chat_id, f"How much did you spend on {selected_category}? \nYou can also enter currency code after the amount, and it'll be converted to USD", reply_markup=markup)
         bot.register_next_step_handler(msg, record_expense, selected_category, bot)
     except Exception as e:
         bot.reply_to(message, "Oh no! " + str(e))
