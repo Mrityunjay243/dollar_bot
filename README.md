@@ -58,7 +58,7 @@ With simple commands, this bot allows you to:
 
 ## What is new in this version?
 
-Checkout the [this documentation](https://github.com/ebanigogia/dollar_bot/blob/main/What_is_new.pdf)
+Checkout the [documentation](https://github.com/Mrityunjay243/dollar_bot/wiki/New-Features)
 ## Installation
 
 The below instructions can be followed in order to set-up this bot at your end in a span of few minutes! Let's get started:
