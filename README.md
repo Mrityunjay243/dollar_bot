@@ -31,17 +31,17 @@
 ![MIT license](https://img.shields.io/badge/License-MIT-green.svg)
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/sak007/MyDollarBot-BOTGo)](https://github.com/ebanigogia/dollar_bot/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/sak007/MyDollarBot-BOTGo)](https://github.com/Mrityunjay243/dollar_bot/graphs/contributors)
 [![DOI](https://zenodo.org/badge/706356133.svg)](https://zenodo.org/doi/10.5281/zenodo.10019963)
 [![Build Status](https://app.travis-ci.com/usmanwardag/dollar_bot.svg?branch=main)](https://app.travis-ci.com/usmanwardag/dollar_bot)
 [![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
 
-[![GitHub issues](https://img.shields.io/github/issues/ebanigogia/dollar_bot)](https://github.com/ebanigogia/dollar_bot/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/ebanigogia/dollar_bot)](https://github.com/ebanigogia/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
 
 <hr>
 
-## Why should you use MyDollar Bot?
+## Why should you use Expense Management Bot?
 
 Dollar Bot is an easy-to-use Telegram Bot that assists you in recording your daily expenses on a local system without any hassle.  
 With simple commands, this bot allows you to:
@@ -84,16 +84,16 @@ The below instructions can be followed in order to set-up this bot at your end i
 
 3. BotFather will now confirm the creation of your bot and provide a TOKEN to access the HTTP API - copy and save this token for future use.
 
-4. In the repo directory (where you cloned it), run these commands to (i) grant execution access to a bash script, and (ii) execute that bash script to run the Telegram Bot:
+4. In the repo directory (where you cloned it), run these commands to (i) grant execution access to a bash script, and (ii) execute that bash script to run the Telegram Bot (make sure that you use a UNIX based CLI to run the shell files):
 ```
-   chmod a+x run.sh
-   ./run.sh
+   chmod a+x run_tele.sh
+   ./run_tele.sh
 ```
    
 (OR)
 ```
-   chmod a+x run.sh
-   bash run.sh
+   chmod a+x run_tele.sh
+   bash run_tele.sh
 ```
 ```Note```: It will ask you to paste the API token you received from Telegram in step 4.
 A successful run will generate a message on your terminal that says "TeleBot: Started polling." 
@@ -124,7 +124,7 @@ coverage report
 
 ## License
 
-This project is licensed under the terms of the MIT license. Please check [License](https://github.com/usmanwardag/dollar_bot/blob/main/LICENSE) for more details.
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/Mrityunjay243/dollar_bot/blob/main/LICENSE) for more details.
 
 
 ## Code Documentation
@@ -133,7 +133,7 @@ Checkout the [docs](https://github.com/sak007/MyDollarBot-BOTGo/tree/main/docs)
 
 ## How to Contribute
 
-We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/usmanwardag/dollar_bot/blob/main/CONTRIBUTING.md)
+We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/Mrityunjay243/dollar_bot/blob/main/CONTRIBUTING.md)
 
 For any feedback, issues, or bug reports, please create an issue [here](https://github.com/Mrityunjay243/dollar_bot/issues).
 
