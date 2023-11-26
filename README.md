@@ -92,8 +92,8 @@ The below instructions can be followed in order to set-up this bot at your end i
    
 (OR)
 ```
-   chmod a+x run.sh
-   bash run.sh
+   chmod a+x run_tele.sh
+   bash run_tele.sh
 ```
 ```Note```: It will ask you to paste the API token you received from Telegram in step 4.
 A successful run will generate a message on your terminal that says "TeleBot: Started polling." 
