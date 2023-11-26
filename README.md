@@ -1,10 +1,10 @@
-# 💰 MyDollar Bot 💰
+# 💰 Expense Management Bot 💰
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#why-should-you-use-dollar-bot">Why should you use Dollar Bot?</a></li>
+    <li><a href="#why-should-you-use-expense-management-bot">Why should you use Dollar Bot?</a></li>
     <li><a href="#check-out-the-video">Check out the video!</a></li>
     <li><a href="#what-is-new-in-this-version">What is new in this version?</a></li>
     <li><a href="#installation">Installation</a></li>
@@ -160,7 +160,7 @@ For any feedback, issues, or bug reports, please create an issue [here](https://
 
 - We would like to express our gratitude 🙏🏻 and a big thank you 😇 to Prof. Dr. Timothy Menzie for giving us the opportunity to get into the shoes of software building and learning new skills and development process throught the project building.
 - A big thank you 😊 to the Teaching Assistants for their support.
-- Thank you to the previous team 😊 for a thorough ReadMe and deatiled documentation.[MyDollarBot](https://github.com/ebanigogia/dollar_bot/blob/main/README.md)
+- Thank you to the previous team 😊 for a thorough ReadMe and deatiled documentation.[ExpenseManagementBot](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md)
 - Thank you to the ⭐️[Telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
 
