@@ -28,23 +28,25 @@ data_format = {"data": [], "budget": {"overall": None, "category": None}}
 # set of implemented commands and their description
 commands = {
     "help": "Display the list of commands.",
-    "pdf": "Save history as PDF.",
+    "pdf": "Save history as PDF. Can also specify date range to get history for provided date range",
     "category": "This option is for add/view/delete the categories \
        \n 1. After clicking on add/update, it will ask you to add the category \
        \n 2. After clicking on view, it will help you to view the list of the categories \
        \n 3. After clicking on delete, it will ask for the delete confirmation and delete the category from the list.  ",
     "expense": "This option is for add/update/delete your expenses \
-        \n 1. After clicking on add, it will prompt you to add a new expense to a category of your choice \
+        \n 1. After clicking on add, it will prompt you to add a new expense to a category of your choice. (Can also add three character currency code to convert from that currency to USD) \
         \n 2. After clicking on update, it will give you the option to edit an existing expense made by you \
         \n 3. After clicking on delete, you have the option to delete any expense after confirmation. ",
     "estimate": "This option gives you the estimate of expenditure for the next day/month. It calcuates based on your recorded spendings",
+    "export": "This option lets you export the historical transaction data in either CSV or Excel format. Just specify csv or excel after the command",
     "history": "This option is to give you the detailed summary of your expenditure with Date, time ,category and amount. A quick lookup into your spendings",
     "delete": "This option is to Clear/Erase all your records",
     "budget": "This option is to set/update/delete the budget. \
-        \n 1. The Add/update category is to set the new budget or update the existing budget \
+        \n 1. The Add/update category is to set the new budget or update the existing budget. (Can also add three character currency code to convert from that currency to USD) \
         \n 2. The view category gives the detail if budget is exceeding or in limit with the difference amount \
         \n 3. The delete category allows to delete the budget and start afresh!  ",
-        "support": "This option allows you to reach out to development team for further support",
+    "search": "Retrieve transaction data for the specified category.",
+    "support": "This option allows you to reach out to development team for further support",
 
 }
 
