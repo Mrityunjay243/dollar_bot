@@ -202,7 +202,7 @@ def calculateRemainingOverallBudget(chat_id):
     query = datetime.now().today().strftime(getMonthFormat())
     queryResult = [value for index, value in enumerate(history) if str(query) in value]
 
-    return float(budget) - calculate_total_spendings(queryResult)
+    return round(float(budget) - calculate_total_spendings(queryResult), 2)
 
 
 def calculate_total_spendings(queryResult):
