@@ -31,13 +31,13 @@
 ![MIT license](https://img.shields.io/badge/License-MIT-green.svg)
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/sak007/MyDollarBot-BOTGo)](https://github.com/ebanigogia/dollar_bot/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/sak007/MyDollarBot-BOTGo)](https://github.com/Mrityunjay243/dollar_bot/graphs/contributors)
 [![DOI](https://zenodo.org/badge/706356133.svg)](https://zenodo.org/doi/10.5281/zenodo.10019963)
 [![Build Status](https://app.travis-ci.com/usmanwardag/dollar_bot.svg?branch=main)](https://app.travis-ci.com/usmanwardag/dollar_bot)
 [![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
 
-[![GitHub issues](https://img.shields.io/github/issues/ebanigogia/dollar_bot)](https://github.com/ebanigogia/dollar_bot/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/ebanigogia/dollar_bot)](https://github.com/ebanigogia/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
 
 <hr>
 
