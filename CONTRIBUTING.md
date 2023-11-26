@@ -1,6 +1,6 @@
 # Contributing to Expense Management Bot
 
-Follow the set of guidelines below to contribute to MyDollarBot!
+Follow the set of guidelines below to contribute to Expense Management Bot!
 
 ## Code of Conduct
 
