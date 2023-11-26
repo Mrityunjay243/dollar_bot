@@ -10,34 +10,34 @@
 ## Part I: Scorecards
 
 ### **Repo Link:** https://github.com/Mrityunjay243/dollar_bot
-**Total Score:** 87/87
+**Total Score:** 78/83
 | Notes | Score | Evidence/Comments/Links |
 | ----- | ----- | ------------------------ |
-| Short release cycles | 3 | 2 Releases -> [Release Link](https://github.com/ebanigogia/dollar_bot/releases) |
-| Workload is spread over the whole team | 3 | Each member worked on a different feature -> [Team Pulse](https://github.com/ebanigogia/dollar_bot/pulse) |
-| Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | 3 | Updated documentation for each feature -> [Docs Link](https://github.com/ebanigogia/dollar_bot/tree/main/docs) |
-| File CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up | 2 | [Contributing Link](https://github.com/ebanigogia/dollar_bot/blob/main/CONTRIBUTING.md) |
-| Docs: doco generated, format not ugly | 3 | [Docs Link](https://github.com/ebanigogia/dollar_bot/tree/main/docs) |
+| Short release cycles | 3 | 2 Releases -> [Release Link](https://github.com/Mrityunjay243/dollar_bot/releases) |
+| Workload is spread over the whole team | 3 | Each member worked on a different feature -> [Team Pulse](https://github.com/Mrityunjay243/dollar_bot/pulse) |
+| Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | 3 | Updated documentation for each feature -> [Docs Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/docs) |
+| File CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up | 2 | [Contributing Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/CONTRIBUTING.md) |
+| Docs: doco generated, format not ugly | 3 | [Docs Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/docs) |
 | Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) | 3 | - |
-| Evidence that the members of the team are working across multiple places in the code base | 3 | [Team Pulse](https://github.com/ebanigogia/dollar_bot/pulse) |
-| Docs: what: point descriptions of each class/function (in isolation) | 3 | [Docs Link](https://github.com/ebanigogia/dollar_bot/tree/main/docs) |
-| Number of commits: by different people | 3 | [Commit Activity](https://github.com/ebanigogia/dollar_bot/graphs/commit-activity) |
-| Issues are being closed | 3 | 11 Issues closed -> [Closed Issues Link](https://github.com/ebanigogia/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
-| Issues are discussed before they are closed | 3 | Each issue updated with the discussion before closing and comments added -> [Discussion Link](https://github.com/ebanigogia/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
-| Use of syntax checkers | 2 | Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/ebanigogia/dollar_bot/blob/main/.travis.yml) |
-| Issues reports | 2 | [Issues Link](https://github.com/ebanigogia/dollar_bot/issues) |
-| Use of code formatters | 2 | Config files in GH showing your this formatter's config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/sak007/MyDollarBot-BOTGo/blob/main/.travis.yml) |
-| Use of style checkers | 2 | Config files in GH showing your config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/ebanigogia/dollar_bot/blob/main/.travis.yml) |
-| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code | 3 | Added in Readme.md -> [Video Link](https://github.com/ebanigogia/dollar_bot/blob/main/README.md) |
-| Test cases exist | 2 | 110 test cases with coverage > 80% for each file -> [Test Cases Link](https://github.com/ebanigogia/dollar_bot/tree/main/test) |
-| Use of code coverage | 2 | [Travis Config Link](https://github.com/ebanigogia/dollar_bot/blob/main/.travis.yml) |
-| Other automated analysis tools | 2 | [Travis Config Link](https://github.com/ebanigogia/dollar_bot/blob/main/.travis.yml) |
-| Test cases: a large proportion of the issues related to handling failing cases. (if a test case fails, open an issue and fix it | 2 | [Issues Link](https://github.com/ebanigogia/dollar_bot/issues) |
+| Evidence that the members of the team are working across multiple places in the code base | 3 | [Team Pulse](https://github.com/Mrityunjay243/dollar_bot/pulse) |
+| Docs: what: point descriptions of each class/function (in isolation) | 3 | [Docs Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/docs) |
+| Number of commits: by different people | 3 | [Commit Activity](https://github.com/Mrityunjay243/dollar_bot/graphs/commit-activity) |
+| Issues are being closed | 3 | 11 Issues closed -> [Closed Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
+| Issues are discussed before they are closed | 3 | Each issue updated with the discussion before closing and comments added -> [Discussion Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
+| Use of syntax checkers | 2 | Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Issues reports | 2 | [Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues) |
+| Use of code formatters | 2 | Config files in GH showing your this formatter's config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Use of style checkers | 2 | Config files in GH showing your config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code | 3 | Added in Readme.md -> [Video Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md) |
+| Test cases exist | 2 | 110 test cases with coverage > 80% for each file -> [Test Cases Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/test) |
+| Use of code coverage | 2 | [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Other automated analysis tools | 2 | [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Test cases: a large proportion of the issues related to handling failing cases. (if a test case fails, open an issue and fix it | 2 | [Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues) |
 | Test cases are routinely executed | 1 | [Codecov Link](https://app.codecov.io/gh/sak007/MyDollarBot-BOTGo) |
-| Documentation describing how this version improves on the older version | 3 | Updated README.md to show the Delta -> [Docs Link](https://github.com/ebanigogia/dollar_bot/blob/main/README.md) |
+| Documentation describing how this version improves on the older version | 3 | Updated README.md to show the Delta -> [Docs Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md) |
 | This version is a little(1), some(2), much(3) improved on the last version | 3 | Tutor's assessment |
 | DOI Badge: exists | 3 | [DOI Badge](https://zenodo.org/records/10019964) |
-| Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z | 3 | [Docs Link](https://github.com/ebanigogia/dollar_bot/tree/main/docs) |
+| Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z | 3 | [Docs Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/docs) |
 | Video (at least 2 mins) | 3 | [Video Link](https://www.youtube.com/watch?v=O0sEIM39ejE&ab_channel=ShrishtySingh) |
 | Use of Version controls | 3 | Github is a version control tool |
 | Chat channel exists | 3 | [Discord Link](https://discord.com/channels/1164337248746082394/1164337249387823152) |
