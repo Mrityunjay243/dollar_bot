@@ -135,31 +135,32 @@ Checkout the [docs](https://github.com/sak007/MyDollarBot-BOTGo/tree/main/docs)
 
 We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/usmanwardag/dollar_bot/blob/main/CONTRIBUTING.md)
 
-For any feedback, issues, or bug reports, please create an issue [here](https://github.com/usmanwardag/dollar_bot/issues/new).
+For any feedback, issues, or bug reports, please create an issue [here](https://github.com/Mrityunjay243/dollar_bot/issues).
 
 ## Future RoadMap
 
+- The bot can be integrated with Slack like it is currently done with discord to make it seamless to use. 
 - More content can be added for the way notifications can be displayed on the user front. This can be done to make the UI more interactive.
-- Recurring expenses feature can be added for faster addition of expenses instead of following the whole process of everytime.
 
 ## Contributors
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ebanigogia"><br /><sub><b>Ebani Gogia</b></sub></a></td>
-    <td align="center"><a href="https://github.com/shrishty19"><br /><sub><b>Shrishty Singh</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/rhythmjagota"><br /><sub><b>Rhythm Jagota</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Mrityunjay243"><br /><sub><b>Mrityunjay Joshi</b></sub></a></td>
+    <td align="center"><a href="https://github.com/AtharvaThorve"><br /><sub><b>Atharva Thorve</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/divitkalathil"><br /><sub><b>Divit Kalathil</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/raghavnarula"><br /><sub><b>Raghav Narula</b></sub></a><br /></td>
   </tr>
 </table>
 
 ## Chat Channel
 
-- https://discord.com/channels/1164337248746082394/1164337249387823152
+- https://discord.gg/vStKkEEA
 
 ## Acknowledgements
 
 - We would like to express our gratitude 🙏🏻 and a big thank you 😇 to Prof. Dr. Timothy Menzie for giving us the opportunity to get into the shoes of software building and learning new skills and development process throught the project building.
 - A big thank you 😊 to the Teaching Assistants for their support.
-- Thank you to the previous team 😊 for a thorough ReadMe and deatiled documentation.[MyDollarBot](https://github.com/sak007/MyDollarBot-BOTGo)
+- Thank you to the previous team 😊 for a thorough ReadMe and deatiled documentation.[MyDollarBot](https://github.com/ebanigogia/dollar_bot/blob/main/README.md)
 - Thank you to the ⭐️[Telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
 
