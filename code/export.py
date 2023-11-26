@@ -29,7 +29,7 @@ def run(message, bot):
 
         input_command = message.text.split()
         export_format = input_command[1].lower() if len(input_command) > 1 else None
-        export_format = 'xlsx' if export_format == 'excel' else None
+        export_format = 'xlsx' if export_format == 'excel' else 'csv'
 
         if export_format not in ['csv', 'xlsx']:
             bot.reply_to(message, "Invalid export format. Please use /export csv or /export excel.")
