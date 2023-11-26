@@ -41,7 +41,7 @@
 
 <hr>
 
-## Why should you use MyDollar Bot?
+## Why should you use Expense Management Bot?
 
 Dollar Bot is an easy-to-use Telegram Bot that assists you in recording your daily expenses on a local system without any hassle.  
 With simple commands, this bot allows you to:
@@ -84,10 +84,10 @@ The below instructions can be followed in order to set-up this bot at your end i
 
 3. BotFather will now confirm the creation of your bot and provide a TOKEN to access the HTTP API - copy and save this token for future use.
 
-4. In the repo directory (where you cloned it), run these commands to (i) grant execution access to a bash script, and (ii) execute that bash script to run the Telegram Bot:
+4. In the repo directory (where you cloned it), run these commands to (i) grant execution access to a bash script, and (ii) execute that bash script to run the Telegram Bot (make sure that you use a UNIX based CLI to run the shell files):
 ```
-   chmod a+x run.sh
-   ./run.sh
+   chmod a+x run_tele.sh
+   ./run_tele.sh
 ```
    
 (OR)
@@ -124,7 +124,7 @@ coverage report
 
 ## License
 
-This project is licensed under the terms of the MIT license. Please check [License](https://github.com/usmanwardag/dollar_bot/blob/main/LICENSE) for more details.
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/Mrityunjay243/dollar_bot/blob/main/LICENSE) for more details.
 
 
 ## Code Documentation
@@ -133,7 +133,7 @@ Checkout the [docs](https://github.com/sak007/MyDollarBot-BOTGo/tree/main/docs)
 
 ## How to Contribute
 
-We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/usmanwardag/dollar_bot/blob/main/CONTRIBUTING.md)
+We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/Mrityunjay243/dollar_bot/blob/main/CONTRIBUTING.md)
 
 For any feedback, issues, or bug reports, please create an issue [here](https://github.com/Mrityunjay243/dollar_bot/issues).
 
