@@ -4,7 +4,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#why-should-you-use-expense-management-bot">Why should you use Dollar Bot?</a></li>
+    <li><a href="#why-should-you-use-Dollar Bot">Why should you use Expense-Management-Bot?</a></li>
     <li><a href="#check-out-the-video">Check out the video!</a></li>
     <li><a href="#what-is-new-in-this-version">What is new in this version?</a></li>
     <li><a href="#installation">Installation</a></li>
