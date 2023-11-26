@@ -1,4 +1,4 @@
-# Contributing to MyDollarBot
+# Contributing to Expense Management Bot
 
 Follow the set of guidelines below to contribute to MyDollarBot!
 
@@ -9,7 +9,7 @@ This project and everyone participating in it is governed by the [Code of Conduc
 Prerequistes required before starting this project:
 
 If you like our project and would like to contribue otherwise, please note:
-1. This project is created as part of CSC510 Coursework at NC State for Fall'21.
+1. This project is created as part of CSC510 Coursework at NC State for Fall'23.
 2. If you like to contribute, reach out to the maintainers before creating a branch, to confirm if we're still maintaining the repo.
 3. Have good understanding of Python Programming Language and Telegram Bots
 
