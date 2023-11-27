@@ -54,7 +54,9 @@ With simple commands, this bot allows you to:
 
 ## Check out the video!
 
-[![Demo Video](https://i9.ytimg.com/vi/aCjcT1CHAzU/mq3.jpg?sqp=COSotI0G&rs=AOn4CLD34jFIlq6GRdmTnK6p3F8O2F-Yig)](https://www.youtube.com/watch?v=O0sEIM39ejE)
+Discord Addition
+[DiscordBot](https://github.com/Mrityunjay243/dollar_bot/assets/48481966/5d3b8142-9a0a-41f2-bf3d-44db3b1e06b6)
+
 
 ## What is new in this version?
 
@@ -100,6 +102,11 @@ A successful run will generate a message on your terminal that says "TeleBot: St
 
 5. In the Telegram app, search for your newly created bot by entering the username and open the same. Now, on Telegram, enter the "/start" or "menu" command, and you are all set to track your expenses!
 
+### For Discord
+```bash
+chmod a+x run_discord.sh
+./discord.sh
+```
 ### Run Automatically at Startup
 
 To run the script automatically at startup / reboot, simply add the `.run_forever.sh` script to your `.bashrc` file, which executes whenever you reboot your system.
@@ -162,6 +169,7 @@ For any feedback, issues, or bug reports, please create an issue [here](https://
 - A big thank you 😊 to the Teaching Assistants for their support.
 - Thank you to the previous team 😊 for a thorough ReadMe and deatiled documentation.[ExpenseManagementBot](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md)
 - Thank you to the ⭐️[Telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
+- Thank you to the ⭐️[Discord bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
 
 
