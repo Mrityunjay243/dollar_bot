@@ -55,7 +55,7 @@ With simple commands, this bot allows you to:
 ## Check out the video!
 
 Discord Addition
-[DiscordBot](https://github.com/Mrityunjay243/dollar_bot/assets/48481966/5d3b8142-9a0a-41f2-bf3d-44db3b1e06b6)
+[DiscordBot](https://youtu.be/T8yfeBl6-0A)
 
 
 ## What is new in this version?
