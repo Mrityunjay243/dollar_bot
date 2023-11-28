@@ -22,7 +22,7 @@
 | Evidence that the members of the team are working across multiple places in the code base | 3 | [Team Pulse](https://github.com/Mrityunjay243/dollar_bot/pulse) |
 | Docs: what: point descriptions of each class/function (in isolation) | 3 | [Docs Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/docs) |
 | Number of commits: by different people | 3 | [Commit Activity](https://github.com/Mrityunjay243/dollar_bot/graphs/commit-activity) |
-| Issues are being closed | 3 | 11 Issues closed -> [Closed Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
+| Issues are being closed | 3 | Issues closed -> [Closed Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
 | Issues are discussed before they are closed | 3 | Each issue updated with the discussion before closing and comments added -> [Discussion Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
 | Use of syntax checkers | 3 | Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
 | Issues reports | 3 | [Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues) |
