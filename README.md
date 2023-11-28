@@ -136,7 +136,7 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 ## Code Documentation
 
-Checkout the [docs](https://github.com/sak007/MyDollarBot-BOTGo/tree/main/docs)
+Checkout the [code documentation](https://github.com/Mrityunjay243/dollar_bot/tree/main/docs)
 
 ## How to Contribute
 
