@@ -53,7 +53,7 @@ With simple commands, this bot allows you to:
 - Edit/Change any spending details if you wish to
 - Visualize your spending patterns
 - Export your spend history to tools like excel and perform an analysis
-- If telegram isn't convenient enogh, use discord
+- If telegram isn't convenient enough, use discord
 
 ## Check out the video!
 
