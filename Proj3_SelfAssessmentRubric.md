@@ -10,7 +10,7 @@
 ## Part I: Scorecards
 
 ### **Repo Link:** https://github.com/Mrityunjay243/dollar_bot
-**Total Score:** 78/83
+**Total Score:** 79/84
 | Notes | Score | Evidence/Comments/Links |
 | ----- | ----- | ------------------------ |
 | Short release cycles | 3 | 2 Releases -> [Release Link](https://github.com/Mrityunjay243/dollar_bot/releases) |
@@ -41,7 +41,7 @@
 | Video (at least 2 mins) | 3 | [Video Link](https://youtu.be/T8yfeBl6-0A) |
 | Use of Version controls | 3 | Github is a version control tool |
 | Chat channel exists | 3 | [Discord Link](https://discord.com/channels/1175972668118405130/1175972668118405133) |
-| Total | 73 | - |
+| Total | 79 | - |
 
 ### ONLINE SUSTAINABILITY QUESTIONNAIRE
 
