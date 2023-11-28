@@ -30,6 +30,7 @@
 
 ![MIT license](https://img.shields.io/badge/License-MIT-green.svg)
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
+[![Platform](https://img.shields.io/badge/Platform-Discord-purple)](https://discord.com/)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/sak007/MyDollarBot-BOTGo)](https://github.com/Mrityunjay243/dollar_bot/graphs/contributors)
 [![DOI](https://zenodo.org/badge/720309120.svg)](https://zenodo.org/doi/10.5281/zenodo.10211768)
