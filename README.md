@@ -32,13 +32,13 @@
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
 [![Platform](https://img.shields.io/badge/Platform-Discord-purple)](https://discord.com/)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/sak007/MyDollarBot-BOTGo)](https://github.com/Mrityunjay243/dollar_bot/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/graphs/contributors)
 [![DOI](https://zenodo.org/badge/720309120.svg)](https://zenodo.org/doi/10.5281/zenodo.10211768)
 [![Build Status](https://app.travis-ci.com/usmanwardag/dollar_bot.svg?branch=main)](https://app.travis-ci.com/usmanwardag/dollar_bot)
 [![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
 
-[![GitHub issues](https://img.shields.io/github/issues/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/Mrityunjay243/dollar_bot)](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/Mrityunjay243/dollar_bot.svg)](https://github.com/Mrityunjay243/dollar_bot/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Mrityunjay243/dollar_bot.svg)](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
 
 <hr>
 
@@ -47,18 +47,18 @@
 Expense-Management-Bot is an easy-to-use Telegram Bot that assists you in recording your daily expenses on a local system without any hassle.  
 With simple commands, this bot allows you to:
 - Add/Record new spendings
-- Display your spendings through bar graph
+- Display your spendings through a bar graph
 - Show the sum of your expenditure for the current day/month
 - Display your spending history
 - Clear/Erase all your records
 - Edit/Change any spending details if you wish to
 - Visualize your spending patterns
-- Export your spend history to tools like excel and perform an analysis
+- Export your spending history to tools like Excel and perform an analysis
 - If telegram isn't convenient enough, use discord
 
 ## Check out the video!
 
-Please refer to this [Video](https://youtu.be/T8yfeBl6-0A) for understanding the working and what's new in the telegram bot!
+Please refer to this [Video](https://youtu.be/T8yfeBl6-0A) to understand the working and what's new in the telegram bot!
 
 [This video](https://github.com/Mrityunjay243/dollar_bot/assets/48481966/5d3b8142-9a0a-41f2-bf3d-44db3b1e06b6) can be referred to see the added functionality of discord works. 
 
@@ -70,7 +70,7 @@ Rubric for Project 3: [Rubric](https://github.com/Mrityunjay243/dollar_bot/blob/
 
 ## Installation
 
-Please follow the instructions given in [this documentation](https://github.com/Mrityunjay243/dollar_bot/wiki/Installations-and-Running-the-Bot) for installations and running the bot.
+Please follow the instructions in [this documentation](https://github.com/Mrityunjay243/dollar_bot/wiki/Installations-and-Running-the-Bot) for installing and running the bot.
 
 ## Testing
 
@@ -81,9 +81,9 @@ python run -m pytest test/
 
 ## Code Coverage
 
-Code coverage is part of the build. Every time new code is pushed to the repository, the build is run, and along with it, code coverage is computed. This can be viewed by selecting the build, and then choosing the codecov pop-up on hover.
+Code coverage is part of the build. Every time new code is pushed to the repository, the build is run, and code coverage is computed along with it. This can be viewed by selecting the build, and then choosing the codecov pop-up on hover.
 
-Locally, we use the coverage package in python for code coverage. The commands to check code coverage in python are as follows:
+Locally, we use the coverage package in Python for code coverage. The commands to check code coverage in Python are as follows:
 
 ```
 coverage run -m pytest test/
@@ -103,11 +103,11 @@ Checkout the [code documentation](https://github.com/Mrityunjay243/dollar_bot/tr
 
 We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/Mrityunjay243/dollar_bot/blob/main/CONTRIBUTING.md)
 
-For any feedback, issues, or bug reports, please create an issue [here](https://github.com/Mrityunjay243/dollar_bot/issues).
+Please create an issue [here](https://github.com/Mrityunjay243/dollar_bot/issues) for any feedback, issues, or bug reports.
 
 ## Future RoadMap
 
-- The bot can be integrated with Slack like it is currently done with discord to make it seamless to use. 
+- The bot can be integrated with Slack like it is currently done with Discord to make it seamless to use. 
 - More content can be added for the way notifications can be displayed on the user front. This can be done to make the UI more interactive.
 
 ## Contributors
@@ -126,7 +126,7 @@ For any feedback, issues, or bug reports, please create an issue [here](https://
 
 ## Acknowledgements
 
-- We would like to express our gratitude 🙏🏻 and a big thank you 😇 to Prof. Dr. Timothy Menzie for giving us the opportunity to get into the shoes of software building and learning new skills and development process throught the project building.
+- We would like to express our gratitude 🙏🏻 and a big thank you 😇 to Prof. Dr. Timothy Menzie for giving us the opportunity to get into the shoes of software building and learning new skills and development process throughout the project building.
 - A big thank you 😊 to the Teaching Assistants for their support.
 - Thank you to the previous team 😊 for a thorough ReadMe and deatiled documentation.[ExpenseManagementBot](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md)
 - Thank you to the ⭐️[Telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
