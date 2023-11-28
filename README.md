@@ -62,6 +62,7 @@ Discord Addition
 ## What is new in this version?
 
 Checkout the [documentation](https://github.com/Mrityunjay243/dollar_bot/wiki/New-Features)
+
 Rubric for Project 3: [Rubric](https://github.com/Mrityunjay243/dollar_bot/blob/main/Proj3_SelfAssessmentRubric.md)
 
 ## Installation
