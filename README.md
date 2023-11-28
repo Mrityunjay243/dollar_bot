@@ -43,7 +43,7 @@
 
 ## Why should you use Expense Management Bot?
 
-Dollar Bot is an easy-to-use Telegram Bot that assists you in recording your daily expenses on a local system without any hassle.  
+Expense-Management-Bot is an easy-to-use Telegram Bot that assists you in recording your daily expenses on a local system without any hassle.  
 With simple commands, this bot allows you to:
 - Add/Record new spendings
 - Display your spendings through bar graph
@@ -54,10 +54,9 @@ With simple commands, this bot allows you to:
 
 ## Check out the video!
 
-[Video](https://youtu.be/T8yfeBl6-0A)
+Please refer to this [Video](https://youtu.be/T8yfeBl6-0A) for understanding the working and what's new in the telegram bot!
 
-Discord Addition
-[DiscordBot](https://github.com/Mrityunjay243/dollar_bot/assets/48481966/5d3b8142-9a0a-41f2-bf3d-44db3b1e06b6)
+[This video](https://github.com/Mrityunjay243/dollar_bot/assets/48481966/5d3b8142-9a0a-41f2-bf3d-44db3b1e06b6) can be referred to see the added functionality of discord works. 
 
 ## What is new in this version?
 
@@ -67,53 +66,7 @@ Rubric for Project 3: [Rubric](https://github.com/Mrityunjay243/dollar_bot/blob/
 
 ## Installation
 
-The below instructions can be followed in order to set-up this bot at your end in a span of few minutes! Let's get started:
-
-1. Clone this repository to your local system.
-
-2. Start a terminal session in the directory where the project has been cloned. Run the following command to install the required dependencies:
-```
-  pip install -r requirements.txt
-
-```
-3. Download and install the Telegram desktop application for your system from the following site:
- ```
- https://desktop.telegram.org/
- ```
-## How to run?
-
-1. In Telegram, search for "BotFather". Click on "Start", and enter the following command:
-```
-  /newbot
-```
-2. Follow the instructions on screen and choose a name for your bot (e.g., `dollarbot`). After this, select a username for your bot that ends with "bot". The username has to be unique. 
-
-3. BotFather will now confirm the creation of your bot and provide a TOKEN to access the HTTP API - copy and save this token for future use.
-
-4. In the repo directory (where you cloned it), run these commands to (i) grant execution access to a bash script, and (ii) execute that bash script to run the Telegram Bot (make sure that you use a UNIX based CLI to run the shell files):
-```
-   chmod a+x run_tele.sh
-   ./run_tele.sh
-```
-   
-(OR)
-```
-   chmod a+x run_tele.sh
-   bash run_tele.sh
-```
-```Note```: It will ask you to paste the API token you received from Telegram in step 4.
-A successful run will generate a message on your terminal that says "TeleBot: Started polling." 
-
-5. In the Telegram app, search for your newly created bot by entering the username and open the same. Now, on Telegram, enter the "/start" or "menu" command, and you are all set to track your expenses!
-
-### For Discord
-```bash
-chmod a+x run_discord.sh
-./discord.sh
-```
-### Run Automatically at Startup
-
-To run the script automatically at startup / reboot, simply add the `.run_forever.sh` script to your `.bashrc` file, which executes whenever you reboot your system.
+Please follow the instructions given in [this documentation](https://github.com/Mrityunjay243/dollar_bot/wiki/Installations-and-Running-the-Bot) for installations and running the bot.
 
 ## Testing
 
