@@ -51,6 +51,9 @@ With simple commands, this bot allows you to:
 - Display your spending history
 - Clear/Erase all your records
 - Edit/Change any spending details if you wish to
+- Visualize your spending patterns
+- Export your spend history to tools like excel and perform an analysis
+- If telegram isn't convenient enogh, use discord
 
 ## Check out the video!
 
