@@ -24,14 +24,14 @@
 | Number of commits: by different people | 3 | [Commit Activity](https://github.com/Mrityunjay243/dollar_bot/graphs/commit-activity) |
 | Issues are being closed | 3 | 11 Issues closed -> [Closed Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
 | Issues are discussed before they are closed | 3 | Each issue updated with the discussion before closing and comments added -> [Discussion Link](https://github.com/Mrityunjay243/dollar_bot/issues?q=is%3Aissue+is%3Aclosed) |
-| Use of syntax checkers | 2 | Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
-| Issues reports | 2 | [Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues) |
-| Use of code formatters | 2 | Config files in GH showing your this formatter's config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
-| Use of style checkers | 2 | Config files in GH showing your config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Use of syntax checkers | 3 | Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Issues reports | 3 | [Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues) |
+| Use of code formatters | 3 | Config files in GH showing your this formatter's config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Use of style checkers | 3 | Config files in GH showing your config -> Use of Flake8, updated in travis.yml -> [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
 | Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code | 3 | Added in Readme.md -> [Video Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md) |
 | Test cases exist | 2 | 110 test cases with coverage > 80% for each file -> [Test Cases Link](https://github.com/Mrityunjay243/dollar_bot/tree/main/test) |
-| Use of code coverage | 2 | [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
-| Other automated analysis tools | 2 | [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Use of code coverage | 3 | [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
+| Other automated analysis tools | 3 | [Travis Config Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/.travis.yml) |
 | Test cases: a large proportion of the issues related to handling failing cases. (if a test case fails, open an issue and fix it | 2 | [Issues Link](https://github.com/Mrityunjay243/dollar_bot/issues) |
 | Test cases are routinely executed | 1 | [Codecov Link](https://app.codecov.io/gh/sak007/MyDollarBot-BOTGo) |
 | Documentation describing how this version improves on the older version | 3 | Updated README.md to show the Delta -> [Docs Link](https://github.com/Mrityunjay243/dollar_bot/blob/main/README.md) |
